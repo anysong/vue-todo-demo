@@ -1,6 +1,6 @@
 import Vue from 'vue/dist/vue';
 import App from './app.vue';
-
+import './assets/images/pic.jpeg';
 
 var oDiv = document.getElementById('app');
 

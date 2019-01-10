@@ -17,6 +17,7 @@ export default {
     .text {
         color: red;
     }
+    background-image: url('./assets/images/pic.jpeg')
   }
    
 </style>
