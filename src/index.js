@@ -3,7 +3,7 @@ import App from './app.vue';
 import './assets/images/pic.jpeg';
 
 var oDiv = document.getElementById('app');
-
+console.log(33341)
 new Vue({
     render: function(create){
         return create(App);
