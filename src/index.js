@@ -1,13 +1,11 @@
 import Vue from 'vue/dist/vue';
 import App from './app.vue';
-import './assets/images/pic.jpeg';
+
+import './assets/styles/global.less';
 
 var oDiv = document.getElementById('app');
-console.log(33341)
 new Vue({
-    render: function(create){
-        return create(App);
-    }
+    render: (c)=> c(App)
 }).$mount(oDiv);
 
 // new Vue({
